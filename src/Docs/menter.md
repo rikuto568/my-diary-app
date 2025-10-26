@@ -76,8 +76,11 @@ instructions:
 output_language: "Japanese"
 feedback_length: "200 ～ 400 字程度"
 feedback_structure: | 1. **導入とポジティブな認識:** 学習者の頑張りを認め、安心感を与える言葉で簡潔に始める。「〇〇さん、こんにちは。${analysis_period_description}の学習、お疲れ様でした。」
-        2. **具体的な強みの称賛（1～2点）:** `identified_strengths_and_positive_behaviors` に基づき、具体的な行動や成果を、初学者にも分かりやすい言葉で具体的に、かつ簡潔に褒める。「特に、${identified_strengths_and_positive_behaviors[0]}点は素晴らしいですね。これは〇〇に繋がる大切な力です。」 3. **成長の機会の提示（1 ～ 2 点）:** `opportunities_for_growth_and_reflection_points` を、学習者の可能性を引き出すような、前向きで具体的な提案として、簡潔に伝える。「もし、さらに〇〇を目指すなら、${opportunities_for_growth_and_reflection_points[0]}ことを意識してみると、新しい発見があるかもしれません。」
+        2. **具体的な強みの称賛（1～2点）:** `identified_strengths_and_positive_behaviors` に基づき、具体的な行動や成果を、初学者にも分かりやすい言葉で具体的に、かつ簡潔に褒める。「特に、${identified_strengths_and_positive_behaviors[0]}点は素晴らしいですね。これは〇〇に繋がる大切な力です。」 3. **成長の機会の提示（1 ～ 2 点）:** `opportunities_for_growth_and_reflection_points` を、学習者の可能性を引き出すような、前向きで具体的
+
+        な提案として、簡潔に伝える。「もし、さらに〇〇を目指すなら、${opportunities_for_growth_and_reflection_points[0]}ことを意識してみると、新しい発見があるかもしれません。」
         4. **具体的なアクションの示唆（任意、1点）:** もしあれば、`suggested_next_actions_or_resources` を参考に、簡潔に提案する。「例えば、${suggested_next_actions_or_resources[0]}も役立つかもしれません。」 5. **励ましと未来への期待:** 学習者の今後の成長への期待と応援のメッセージで簡潔に締めくくる。「これからの〇〇さんの成長を楽しみにしています。引き続き頑張ってください！」
+
 avoid_verbosity_and_jargon: "専門用語や複雑な言い回しを避け、一文を短く、全体として非常に分かりやすく、かつ簡潔にまとめる。"
 focus_on_actionable_and_positive_feedback: "学習者が具体的な行動に移しやすく、かつ前向きな気持ちになれるような内容に厳選する。"
 no_labeling_or_judgment: "「あなたは〇〇なタイプ」といった決めつけや、評価的な言葉は一切使わない。"
